@@ -12,6 +12,24 @@ footer a:visited {
     color: #212529;
 }
 
+
+.anchorPaddedIndex {
+
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
+
+
+.anchorPaddedSalon {
+
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
+
 .cleaning-lenses-image {
     width: 580px;
     border-radius: 20px;
@@ -199,6 +217,13 @@ footer a:visited {
 
     }
 
+    .anchorPaddedIndex {
+        top: -330px;
+    }
+
+    .anchorPaddedSalon {
+        top: -430px;
+    }
 
 }
 
@@ -240,6 +265,14 @@ footer a:visited {
 
     }
 
+    .anchorPaddedIndex {
+        top: -330px;
+    }
+
+    .anchorPaddedSalon {
+        top: -435px;
+    }
+
 
 
 }
@@ -251,6 +284,14 @@ footer a:visited {
         height: 300px;
     }
 
+    .anchorPaddedIndex {
+        top: -340px;
+    }
+
+    .anchorPaddedSalon {
+        top: -730px;
+    }
+
 
     .inside-shop-img-small {
         width: 330px;
@@ -260,6 +301,10 @@ footer a:visited {
         width: 280px;
         border-radius: 20px;
 
+    }
+
+    .anchorPaddedSalon {
+        top: -435px;
     }
 
 
