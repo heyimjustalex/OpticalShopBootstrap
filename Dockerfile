@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd
 
 RUN apt-get update
 RUN apt-get install bash
