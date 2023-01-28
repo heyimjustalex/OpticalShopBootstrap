@@ -344,8 +344,8 @@ footer a:visited {
 .thead-refund th
 {
     
-    text-align: center;
-border: none;
+    text-align: center!important;;
+    border: none!important;;
    
 }
 
@@ -354,7 +354,7 @@ border: none;
 {
  
  
-    border: none;
+    border: none!important;
 }
 
 
@@ -363,8 +363,8 @@ border: none;
 .thead-center p
 {
 /*    background-color: orange !important;*/
-    padding-bottom: 20px;
-    text-align: center;
+    padding-bottom: 20px!important;;
+    text-align: center!important;;
 }
 
 .sphere-th{
@@ -375,6 +375,6 @@ border: none;
 
 .tbody-refund td
 {
-    text-align: center
+    text-align: center!important;
         
 }
