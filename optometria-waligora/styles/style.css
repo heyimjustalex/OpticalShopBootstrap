@@ -319,3 +319,50 @@ footer a:visited {
 
 
 }
+
+.inline-link
+{
+    text-decoration: none;
+}
+
+
+.thead-refund th
+{
+    
+    text-align: center;
+border: none;
+   
+}
+
+
+
+
+
+.thead-refund
+{
+ 
+ 
+    border: none;
+}
+
+
+
+
+.thead-center p
+{
+/*    background-color: orange !important;*/
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sphere-th{
+        padding-left: 25px!important;
+    padding-right: 25px!important;
+/*    background-color: red!important;;*/
+}
+
+.tbody-refund td
+{
+    text-align: center
+        
+}

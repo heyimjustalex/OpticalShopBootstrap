@@ -45,10 +45,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light  sticky-top">
+   <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light  sticky-top">
         <div class="container-fluid">
             <a href="" class="navbar-brand">
-                <img class="mr-4" width="51" height="41" src="images/glasses.png" style="float:left">
+                <img class="mr-4" width="51" height="41" src="./images/glasses.png" style="float:left">
                 <h1 class="header-font-fancy text-uppercase" style="font-size: 1.7rem; padding-top:7px;">Waligóra</h1>
             </a>
 
@@ -58,16 +58,13 @@
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav p-2 ml-auto mb-2 mb-md-0 text-center">
                     <li class="nav-item active pl-4">
-                        <a href="strona-glowna#o-nas" aria-current="page" class="nav-link text-uppercase">O nas</a>
+                        <a href="#o-nas" aria-current="page" class="nav-link text-uppercase">O nas</a>
                     </li>
 
-                    <li class="nav-item active pl-4">
-                        <a href="strona-glowna#zakres-uslug" aria-current="page"
-                            class="nav-link text-uppercase">Usługi</a>
-                    </li>
+                   
 
                     <li class="nav-item pl-4">
-                        <a href="strona-glowna#kontakt" aria-current="page" class="nav-link text-uppercase">Kontakt</a>
+                        <a href="#kontakt" aria-current="page" class="nav-link text-uppercase">Kontakt</a>
                     </li>
 
                     <li class="nav-item dropdown pl-4">
@@ -75,13 +72,15 @@
                             class="nav-link dropdown-toggle text-uppercase">Salon Optyczny</a>
                         <ul id="salonDropdownItems" class="dropdown-menu text-center" aria-labelledby="salonDropdown">
 
-                            <li><a href="#oprawy-i-soczewki" class="dropdown-item">Oprawy okularowe
+                            <li><a href="salon-optyczny#oprawy-i-soczewki" class="dropdown-item ">Oprawy okularowe
                                     i soczewki</a></li>
-                            <li><a href="#refundacja-nfz" class="dropdown-item ">Refundacja NFZ</a>
+                            <li><a href="salon-optyczny#refundacja-nfz" class="dropdown-item ">Refundacja NFZ</a>
                             </li>
-                            <li><a href="#pielegnacja-okularow" class="dropdown-item ">Pielęgnacja
+                            <li><a href="salon-optyczny#pielegnacja-okularow" class="dropdown-item ">Pielęgnacja
                                     okularów</a></li>
-
+                             <li>
+                        <a href="#zakres-uslug" aria-current="page" class="dropdown-item">Zakres usług</a>
+                    </li>
                         </ul>
                     </li>
 
@@ -120,10 +119,8 @@
                 </header>
                 <div class="col mt-3">
                     <p style="text-align: justify !important;">
-                        W naszym zakładzie optycznym posiadamy szeroką ofertę opraw okularowych zarówno polskich jak i
-                        zagranicznych producentów. Duży wybór i zróżnicowane ceny powodują, że każdy znajdzie u nas coś
-                        dla siebie. Współpracujemy również z wiodącymi laboratoriami produkującymi soczewki okularowe.
-                        Dzięki temu możemy Państwu zaoferować wszystkie rodzaje soczewek:
+                       W naszym zakładzie optycznym posiadamy szeroką ofertę opraw okularowych zarówno polskich jak i zagranicznych producentów. Duży wybór i zróżnicowane ceny powodują, że każdy znajdzie u nas coś dla siebie. Współpracujemy również z wiodącymi laboratoriami produkującymi soczewki okularowe. Dzięki temu możemy Państwu zaoferować wszystkie rodzaje soczewek:
+
                     </p>
                     <ul style="text-align: justify !important;">
 
@@ -136,13 +133,10 @@
 
                     </ul>
                     <p style="text-align: justify !important;">
-                        W ofercie posiadamy soczewki białe, fotochromowe, barwione i polaryzacyjne. Służymy również
-                        pomocą przy wyborze parametrów soczewki takich jak: indeks soczewki (tzw. pocienienie soczewki),
-                        powłoki uszlachetniające czy konstrukcja tak, żeby były dostosowane do Państwa potrzeb.
+                       
+                        W ofercie posiadamy soczewki białe, fotochromowe, barwione oraz polaryzacyjne. Służymy również pomocą przy wyborze parametrów soczewki takich jak: indeks soczewki (tzw. pocienienie soczewki), powłoki uszlachetniające (warstwa utwardzająca, antyrefleks) czy konstrukcja soczewki tak, aby były dostosowane do Państwa potrzeb. 
+                        Warto dodać, że nie korzystamy z usług laboratoriów oraz szlifierni zewnętrznych. Wszystkie okulary wykonujemy dla Państwa w naszym zakładzie optycznym przy pomocy nowoczesnych i precyzyjnych automatów szlifierskich.
 
-                        Warto dodać, że nie korzystamy z usług laboratoriów oraz szlifierni zewnętrznych. Wszystkie
-                        okulary wykonujemy dla Państwa w naszym zakładzie optycznym przy pomocy nowoczesnych i
-                        precyzyjnych automatów szlifierskich.
                     </p>
 
                 </div>
@@ -161,7 +155,11 @@
                     </header>
 
                     <div class="container d-flex flex-column justify-content-center align-items-center mt-3 mb-2">
-                        <div class="col">
+                        <p style="text-align: justify !important;" >
+                        Nasz salon optyczny posiada długoletnią umowę z Narodowym Funduszem Zdrowia na zaopatrzenie w wyroby medyczne jakim są soczewki okularowe. Dzięki temu możecie Państwo zrealizować u nas receptę z przyznanym dofinansowaniem NFZ.
+                        </p> 
+                        <div class="col mt-4">
+                            
 
                             <img class="" src="images/nfz-logo.jpg" alt="Wnętrze sklepu">
 
@@ -174,6 +172,7 @@
             <section>
                 <div class="row mt-3">
                     <div class="col-12">
+                       
                         <p>
                         <header class="mb-3">
                             <h4>Podstawowa działalność zakładu optycznego opiera się na:</h4>
@@ -210,86 +209,65 @@
                             Zdrowia. <br>
 
                         </p>
-                        </p>
+                     
 
                         <div class="container">
-                            <h5 class="mb-2">Dla soczewki sferycznej:</h5>
+                            <h5 class="mb-2">Wartość refundacji</h5>
                             <table class="table ">
-                                <thead class="thead-dark">
+                                <thead class="thead-dark thead-refund">
                                     <tr class="table-active">
-                                        <th scope="col">Wartość soczewki sferycznej</th>
-                                        <th scope="col">Dzieci do 18 roku życia</th>
+                                        <th class="thead-center sphere-th"rowspan="2" scope="col"><p>Wartość sfery</p></th>
+                                        <th class="thead-center" rowspan="2" scope="col"><p>Wartość cylindra</p></th>
+                                        <th class="thead-center" rowspan="2"  scope="col"><p>Limit cenowy dla 1 soczewki okularowej</p></th>
+                                        <th colspan="2" scope="colgroup"><p>Wartość refundacji dla 1 soczewki okularowej</p></th>
+                                    </tr>
+                                      <tr class="table-active ">
+                                        
+                                
+                                        <th scope="col">Dzieci</th>
                                         <th scope="col">Dorośli</th>
                                     </tr>
+                                  
                                 </thead>
-                                <tbody>
+                                <tbody class="tbody-refund">
                                     <tr>
-                                        <th scope="row">od 0.00 do +/- 6.00 dptr</th>
-
+                                        <td>Do +/- 6.00 dptr</td>
+                                        <td>Do +/- 2.00 dptr</td>
                                         <td>25 zł</td>
+                                        <td>17,50 zł</td>
                                         <td>17,50 zł</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">powyżej +/- 6.00</th>
-
-                                        <td>50 zł</td>
+                                        <td>Do +/- 6.00 dptr</td>
+                                        <td>Od +/- 2.25 dptr</td>
+                                        <td>100 zł</td>
                                         <td>35 zł</td>
+                                        <td>17,50 zł</td>
                                     </tr>
-
+                                     <tr>
+                                        <td>Od +/- 6.25 dptr</td>
+                                         <td>Do +/- 2.00 dptr</td>
+                                        <td>100 zł</td>
+                                        <td>35 zł</td>
+                                         <td>17,50 zł</td>
+                                    </tr>
+                                 
                                 </tbody>
                             </table>
 
-
-
-                            <h5 class="mb-2 mt-4">Dla soczewki cylindrycznej:</h5>
-                            <div class="container mb-5 ">
-
-                                <table class="table">
-                                    <thead>
-                                        <tr class="table-active">
-                                            <th scope="col">Wartość soczewki sferycznej</th>
-                                            <th scope="col">Dzieci do 18 roku życia</th>
-                                            <th scope="col">Dorośli</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">od 0.00 do +/- 6.00 dptr</th>
-
-                                            <td>25 zł</td>
-                                            <td>17,50 zł</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">powyżej +/- 6.00</th>
-
-                                            <td>50 zł</td>
-                                            <td>35 zł</td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
+                            <br/>
+                            <p style="text-align: justify !important;">Dorosłym refundacja przysługuje raz na 2 lata.
+Dzieciom refundacja przysługuje tak często jak to konieczne, jednak nie częściej niż 6 miesięcy.
+</p> <br/>
+                            
 
                         </div>
 
-                        <h5 class="mb-2">Aby otrzymać refundacje na okulary NFZ należy:</h5>
+                        <h4 class="mb-2">Jak otrzymać refundacje na soczewki okularowe?</h4>
                         <p style="text-align: justify !important;">
-                        <ol>
-                            <li>Udać się na badanie wzroku do okulisty i poprosić o wypisanie recepty na specjalnym
-                                druku
-                                NFZ.</li>
-                            <li>
-                                Z wypisaną receptą należy udać się do oddziału NFZ (Oddział NFZ w Kłobucku znajduje się
-                                przy
-                                ul. 11 Listopada 5 – Budynek Przychodni) w celu przyznania refundacji.
-                            </li>
-                            <li>
-                                Receptę z przyznaną refundacją można zrealizować w naszym zakładzie optycznym oraz w
-                                innych
-                                placówkach mających podpisaną umowę z NFZ.
-                            </li>
+                        Refundowaną receptę na soczewki okularowe wystawia osoba uprawniona czyli lekarz okulista. Co ciekawe niekoniecznie musi być to lekarz okulista, który posiada umowę z NFZ, ponieważ możliwe jest otrzymanie refundacji NFZ po prywatnej wizycie okulistycznej. Po badaniu lekarz okulista wprowadza dane recepty do systemu i powinniście Państwo otrzymać od niego specjalny kod 0-00-00000000000, który będzie przypisany do Państwa numeru PESEL. Wpisując kod oraz PESEL do naszego systemu będziemy mogli sprawdzić jaka korekcja została przepisana oraz czy przysługuje Państwu refundacja NFZ. 
+                        Jeżeli z jakichś przyczyn niemożliwe jest skorzystanie z systemu informatycznego, zlecenie refundacyjne może zostać wypisane przez lekarza okulistę na <a class="inline-link" href="http://www.nfz-warszawa.pl/gfx/nfz-warszawa/userfiles/_public/dla_pacjenta/zalaczniki/02012023_zlecenie_wyroby_medyczne.pdf">specjalnym druku</a>, z którym należy udać się do placówki NFZ w celu weryfikacji wniosku, przyznaniu refundacji oraz nadaniu w/w kodu.
 
-                        </ol>
                         </p>
                     </div>
             </section>
@@ -323,35 +301,27 @@
                         <p>
                         <ol style="text-align: justify !important;">
                             <li class="mb-2">
-                                Zakładaj/ściągaj okulary dwoma rękami. Pozwoli to uniknąć: deformacji oprawki, luzowania
-                                się śrubek, powstawania naprężeń i urywania się zausznika.
+                                Zakładaj/ściągaj okulary dwoma rękami. Pozwoli to uniknąć: deformacji oprawki, luzowania się śrubek, powstawania naprężeń i urywania się zausznika.
                             </li>
                             <li class="mb-2">
-                                Nie wystawiaj okularów na działanie wysokich temperatur – oprawki wykonane z tworzyw
-                                sztucznych mogą się w ten sposób trwale odkształcić, a antyrefleks na soczewkach
-                                okularowych może
-                                popękać
-                                tworząc tzw. pajęczynkę.
+                                Nie wystawiaj okularów na działanie wysokich temperatur – oprawki wykonane z tworzyw sztucznych mogą się w ten sposób trwale odkształcić, a antyrefleks na soczewkach okularowych może pękać tworząc tzw. pajęczynkę.
+
                             </li>
                             <li class="mb-2">
-                                Gdy nie korzystasz ze swoich okularów, przechowuj je w twardym etui. Gdy nie masz przy
-                                sobie
-                                etui, przechowuj okulary w bezpiecznym miejscu.
+                                Gdy nie korzystasz ze swoich okularów, przechowuj je w twardym etui. Gdy nie masz przy sobie etui, przechowuj okulary w bezpiecznym miejscu.
                             </li>
                             <li class="mb-2">Okulary odkładaj zawsze soczewkami okularowymi do góry.
 
                             </li>
                             <li class="mb-2">
-                                Okulary należy czyścić w letniej wodzie z niewielkim dodatkiem płynu do mycia naczyń.
-                                Do czyszczenia soczewek okularowych, szczególnie tych z antyrefleksem należy używać
+                                Okulary należy czyścić w letniej wodzie z niewielkim dodatkiem płynu do mycia naczyń. Do czyszczenia soczewek okularowych, szczególnie tych z antyrefleksem należy używać miękkiej ściereczki z mikrofibry.
+
 
                             <li class="mb-2">
-                                Nie należy czyścić soczewek okularowych przy pomocy chusteczek higienicznych, ręczników
-                                papierowych, których drobinki mogą porysować powierzchnie soczewek.
+                              Nie należy czyścić soczewek okularowych przy pomocy chusteczek higienicznych, ręczników papierowych, których drobinki mogą porysować powierzchnię soczewek.
 
                             <li class="mb-2">
-                                Nie wszystkie chusteczki nawilżone nadają się do czyszczenie soczewek okularowych z
-                                antyrefleksem.
+                              Nie wszystkie chusteczki nawilżone nadają się do czyszczenie soczewek okularowych z antyrefleksem.
                             </li>
 
                         </ol>
