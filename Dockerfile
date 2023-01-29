@@ -7,5 +7,5 @@ COPY optometria-waligora/. .
 
 COPY httpd.conf /usr/local/apache2/conf
 COPY httpd-vhosts.conf /usr/local/apache2/conf/extra
-
+COPY cert.pem /usr/local/apache2/conf
 EXPOSE 80
