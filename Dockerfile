@@ -7,6 +7,7 @@ COPY my.conf .
 WORKDIR /etc/nginx/ssl
 COPY ./certbot_etc/live/optykaoptometria.pl/fullchain.pem .
 COPY ./certbot_etc/live/optykaoptometria.pl/privkey.pem .
+COPY ./certbot_etc/live/optykaoptometria.pl/dhparams.pem .
 WORKDIR /usr/share/nginx/html/
 COPY optometria-waligora .
 # RUN nginx -s reload
