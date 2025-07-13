@@ -1,5 +1,23 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/strona-glowna", "destination": "/index.html" },
+    { "source": "/badanie-wzroku", "destination": "/badanie-wzroku.html" },
+    { "source": "/gabinety", "destination": "/gabinety.html" },
+    { "source": "/salon-optyczny", "destination": "/salon-optyczny.html" }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/strona-glowna",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+      ]
+    }
   ]
 }
