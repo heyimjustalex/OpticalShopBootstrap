@@ -1,1 +1,5 @@
-test
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
