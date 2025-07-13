@@ -38,12 +38,15 @@
     <link href="fonts/googlefonts/googlefonts.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link href="styles/style.css" rel="stylesheet">
+    <link rel="preload" href="styles/style.css" as="style">
+    <link rel="preload" as="image" href="images/photo6.jpg">
+    
+    <link href="styles/style.css" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="/favicon.ico" type="image/x-icon" rel="icon" />
 </head>
 
 <body>
-     <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light  sticky-top">
+    <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light  sticky-top">
         <div class="container-fluid">
             <a href="strona-glowna" class="navbar-brand">
                 <img class="mr-4" width="51" height="41" src="./images/glasses.png" style="float:left">
@@ -59,7 +62,7 @@
                         <a href="strona-glowna#o-nas" aria-current="page" class="nav-link text-uppercase">O nas</a>
                     </li>
 
-                   
+
 
                     <li class="nav-item pl-4">
                         <a href="strona-glowna#kontakt" aria-current="page" class="nav-link text-uppercase">Kontakt</a>
@@ -76,9 +79,9 @@
                             </li>
                             <li><a href="salon-optyczny#pielegnacja-okularow" class="dropdown-item ">Pielęgnacja
                                     okularów</a></li>
-                             <li>
-                        <a href="#zakres-uslug" aria-current="page" class="dropdown-item">Zakres usług</a>
-                    </li>
+                            <li>
+                                <a href="#zakres-uslug" aria-current="page" class="dropdown-item">Zakres usług</a>
+                            </li>
                         </ul>
                     </li>
 
@@ -160,11 +163,22 @@
                 </header>
                 <div class="col mt-3">
                     <p style="text-align: justify !important;">
-                       Historia naszego zakładu optycznego sięga 1964 roku, kiedy PHU „Foto-Optyka” powierzyła obowiązki założenia i prowadzenia placówki w Kłobucku optykowi Alojzemu Waligórze. Po kilku reorganizacjach, w 1990 roku zakład optyczny stał się firmą rodzinną „A. i G. Waligóra”. 
+                        Historia naszego zakładu optycznego sięga 1964 roku, kiedy PHU „Foto-Optyka” powierzyła
+                        obowiązki założenia i prowadzenia placówki w Kłobucku optykowi Alojzemu Waligórze. Po kilku
+                        reorganizacjach, w 1990 roku zakład optyczny stał się firmą rodzinną „A. i G. Waligóra”.
                         <br><br>
-                        W wyniku dalszego rozwoju, w 2003 roku została uruchomiona nowoczesna placówka „Optyka-Optometria” s.c., w której poza <a class="inline-link"  style="text-decoration: none!important;"  href="salon-optyczny">salonem optycznym</a> funkcjonuje również <a class="inline-link" style="text-decoration: none!important;" href="gabinety#gabinet-optometryczny">gabinet optometryczny</a>. Ciągły rozwój i dokształcanie w obu kierunkach oraz długoletnie doświadczenie i rodzinna atmosfera zapewniają fachową, rzeczową i miłą obsługę klienta. 
+                        W wyniku dalszego rozwoju, w 2003 roku została uruchomiona nowoczesna placówka
+                        „Optyka-Optometria” s.c., w której poza <a class="inline-link" style="text-decoration: none!important;"
+                            href="salon-optyczny">salonem optycznym</a>
+                        funkcjonuje również <a class="inline-link" style="text-decoration: none!important;"
+                            href="gabinety#gabinet-optometryczny">gabinet optometryczny</a>. Ciągły rozwój i
+                        dokształcanie w obu kierunkach oraz długoletnie doświadczenie i rodzinna atmosfera zapewniają
+                        fachową, rzeczową i miłą obsługę klienta.
                         <br><br>
-                        Ponadto od blisko 30 lat przy naszym salonie funkcjonuje <a class="inline-link"  style="text-decoration: none!important;" href="gabinety#gabinet-okulistyczny">gabinet okulistyczny.</a> Bliska współpraca optyka, optometrysty i okulisty zapewnia kompleksową opiekę nad Państwa wzrokiem.
+                        Ponadto od blisko 30 lat przy naszym salonie funkcjonuje <a class="inline-link" style="text-decoration: none!important;"
+                            href="gabinety#gabinet-okulistyczny">gabinet
+                            okulistyczny.</a> Bliska współpraca optyka, optometrysty i okulisty zapewnia kompleksową
+                        opiekę nad Państwa wzrokiem.
                     </p>
 
                 </div>
@@ -186,7 +200,8 @@
                         <div class=" container d-flex flex-column justify-content-center align-items-center">
                             <div class="col">
                                 <img class="inside-shop-img-big" src="images/photo6.jpg" alt="Wnętrze sklepu">
-                                <img class="inside-shop-img-small" src="images/photo7.jpg" alt="Wnętrze sklepu">
+                                <img class="inside-shop-img-small" src="images/photo7.jpg" alt="Wnętrze sklepu" loading="lazy">
+
                             </div>
 
                         </div>
@@ -203,22 +218,29 @@
                         </header>
                         <ul style="text-align: justify !important;">
 
-                            <li>realizacji recept okularowych (recepty z <a  style="text-decoration: none!important;"  class="inline-link" href="gabinety#gabinet-okulistyczny">refundacją NFZ</a>, recepty z gabinetów prywatnych
+                            <li>realizacji recept okularowych (recepty z <a style="text-decoration: none!important;" class="inline-link"
+                                    href="gabinety#gabinet-okulistyczny">refundacją NFZ</a>, recepty
+                                z gabinetów prywatnych
                                 oraz
                                 zlecenia odtworzeniowe) </li>
-                            <li>sprzedaży okularów korekcyjnych (okularów jednoogniskowych, dwuogniskowych, progresywnych oraz okularów specjalistycznych) </li>
-                            <li>współpracy z NFZ w ramach realizacji wniosków na zaopatrzenie w wyroby medyczne, w zakresie optyki okularowej. </li>
+                            <li>sprzedaży okularów korekcyjnych (okularów jednoogniskowych, dwuogniskowych,
+                                progresywnych oraz okularów specjalistycznych) </li>
+                            <li>współpracy z NFZ w ramach realizacji wniosków na zaopatrzenie w wyroby medyczne, w
+                                zakresie optyki okularowej. </li>
                             <li>sprzedaży okularów przeciwsłonecznych i ochronnych. </li>
-                            <li>sprzedaży galanterii optycznej (łańcuszki, sznureczki, futerały, ściereczki z mikrofibry, płyny czyszczące)</li>
+                            <li>sprzedaży galanterii optycznej (łańcuszki, sznureczki, futerały, ściereczki z
+                                mikrofibry, płyny czyszczące)</li>
                             <li>sprzedaży soczewek kontaktowych oraz płynów do ich pielęgnacji </li>
-                            <li>realizacji nietypowych zamówień na okulary korekcyjne (okulary spawalnicze, okulary sportowe, okulary do pływania, okulary z atestem BHP)</li>
+                            <li>realizacji nietypowych zamówień na okulary korekcyjne (okulary spawalnicze, okulary
+                                sportowe, okulary do pływania, okulary z atestem BHP)</li>
                             <li>naprawie okularów (szczególnie okularów wykonywanych w naszym zakładzie optycznym)</li>
 
                         </ul>
                         <p style="text-align: justify !important;">
-                            Ponadto oferujemy Państwu profesjonalne doradztwo, konsultacje oraz pomoc przed- i posprzedażowa.
+                            Ponadto oferujemy Państwu profesjonalne doradztwo, konsultacje oraz pomoc przed- i
+                            posprzedażowa.
                         </p>
-                      
+
 
                     </div>
                 </div>
